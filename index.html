@@ -93,6 +93,39 @@
 		text-decoration: underline!important;
 	}
 
+	.small-card {
+		background-color: #f4f3f3
+	}
+
+	@media (prefers-color-scheme: dark) {
+		body, .main, .wrapper {
+			background-color: #000000!important;
+			color: #ffffff!important;
+		}
+
+		.button {
+			background-color: #ffffff!important;
+			color: #000000!important;
+			font-weight: bold!important;
+		}
+
+		.small-card {
+			background-color: #858585!important;
+		}
+
+		.small-card.last {
+			background-color: #000000!important;
+		}
+
+		a {
+			color: #ffffff!important;
+		}
+
+		.link {
+			text-decoration: underline!important;
+		}
+	}
+
 
 
 </style>
@@ -150,7 +183,7 @@
 					<table width="512px" style="max-width: 512px; margin: auto;">
 						<tr>
 							<td style="max-width: 460px;" align="center">
-								<table width="460px" style="background-color: #f4f3f3; border-radius: 10px; padding: 12px 0;">
+								<table class="small-card" width="460px" style="border-radius: 10px; padding: 12px 0;">
 									<tr>
 										<td style="padding: 1px 10px 0 20px; vertical-align: top;" width="36px">
 											<img src="https://i.ibb.co/pr8TQDX/unnamed-1.png" title="id card icon" alt="id card icon" width="36px">
@@ -199,7 +232,7 @@
 									</tr>
 									<tr>
 										<td style="max-width: 460px;" align="center">
-											<table width="460px" style="background-color: #f4f3f3; border-radius: 10px; padding: 12px 20px 12px 0;">
+											<table class="small-card" width="460px" style="border-radius: 10px; padding: 12px 20px 12px 0;">
 												<tr>
 													<td style="padding: 3px 10px 0 20px; vertical-align: top;" width="36px">
 														<img src="https://i.ibb.co/gr5tVg4/unnamed-2.png" title="information" alt="information" width="36px">
@@ -466,7 +499,7 @@
 					<table width="512px" style="max-width: 512px; margin: auto;">
 						<tr>
 							<td style="max-width: 512px;" align="center" style="padding: 20px;">
-								<table width="512px" style="background-color: #f4f3f3; border-radius: 10px; padding: 20px 0;">
+								<table class="small-card last" width="512px" style="border-radius: 10px; padding: 20px 0;">
 									<tr>
 										<td style="padding: 1px 10px 0 30px;" width="36px">
 											<img src="https://i.ibb.co/7G6xcXN/unnamed-5.png" title="information icon" alt="information icon" width="24px" style="vertical-align: top; margin-right: 5px;">
